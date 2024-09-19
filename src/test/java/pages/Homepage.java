@@ -4,9 +4,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import utility.BrowserDriver;
 
-public class Homepage {
-    public static WebDriver driver;
+public class Homepage extends BrowserDriver {
     public static String closeSignIN = "//span[@class='commonModal__close']";
     public static String fromCity = "//span[.='From']";
    public static String enterFrom = "//input[@placeholder='From']";
